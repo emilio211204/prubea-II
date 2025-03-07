@@ -1,24 +1,9 @@
 {
-  "docentes": [
-    {
-      "id": 1,
-      "email": "emilio@gmail.com",
-      "password": "12345"
-    },
+  "users": [
     {
       "email": "emilio@gmail.com",
-      "password": "123456",
-      "id": 2
-    },
-    {
-      "email": "emilio@gmail.com",
-      "password": "12345",
-      "id": 3
-    },
-    {
-      "email": "emilio@gmail.com",
-      "password": "123456",
-      "id": 4
+      "password": "$2a$10$Camquyy9r3jtIbAwea7fzetKgiYX5AtBIoxMIIOg0T2U00Uj/MdVO",
+      "id": 1
     }
   ]
 }

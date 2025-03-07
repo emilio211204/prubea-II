@@ -11,17 +11,17 @@ import { Router } from '@angular/router';
   styleUrl: './formulario-login.component.css'
 })
 export class FormularioLoginComponent {
-  constructor(private servicio:LoginService, private router:Router) { }
+  constructor(private servicio:LoginService, private route:Router) { }
 
   email : any ; 
   password : any ;
 
   login(formulario:any){
     this.servicio.postlogin(formulario.value).subscribe(acceso=>{
-      let token = acceso.accesstoken;
+      let token = acceso.accessToken;
       if(token !=''){
         localStorage.setItem('login', "true");
-        this.router.navigate(['docente']);
+        this.route.navigate(['docente']);
       }
     });
   }
