@@ -12,6 +12,6 @@ export class EstudiantesComponent {
 constructor(private route: Router) { }
 logout() {
   localStorage.setItem('login', 'false');
-  this.route.navigate(['login']);
+  this.route.navigate(['home']);
 }
 }
