@@ -1,0 +1,13 @@
+/* Estilo adicional para botones o campos si no usas Tailwind CSS */
+input:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
