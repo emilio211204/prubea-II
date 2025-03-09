@@ -9,10 +9,10 @@ export class LoginService {
 
   constructor(private http:HttpClient) { }
 
-  private API_USUARIOS = 'http://localhost:3000/users';
+  private API_USUARIOS = 'http://localhost:3000/login';
 
-  getlogin():Observable<any[]>{
-    return this.http.get<any[]>(this.API_USUARIOS);
+  getlogin():Observable<any>{
+    return this.http.get(this.API_USUARIOS);
   }
 
   postlogin(docente:any):Observable<any>{

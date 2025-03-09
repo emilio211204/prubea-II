@@ -4,6 +4,11 @@
       "email": "emilio@gmail.com",
       "password": "$2a$10$Camquyy9r3jtIbAwea7fzetKgiYX5AtBIoxMIIOg0T2U00Uj/MdVO",
       "id": 1
+    },
+    {
+      "email": "mateo@gmail.com",
+      "password": "$2a$10$W.aH8Ojc/9yn33wZnAKPi.NrfRblkHqXWDCAdaQGy/budxiNXHT1m",
+      "id": 2
     }
   ]
 }

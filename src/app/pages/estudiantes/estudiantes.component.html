@@ -1,74 +1,131 @@
-<div class="materias-container">
-    <h2>Materias y Calificaciones</h2>
-    <div class="materias">
-        <div class="materia pasada">
-            <div class="imagen">
-                <img src="../../../assets/img/data.png" alt="Datos">
-            </div>
-            <div class="contenido">
-                <h3>Base de Datos</h3>
-                <span class="calificacion">8.5</span>
-                <div class="progress-container">
-                    <div class="progress-bar" style="width: 85%;"></div>
+<div class="dashboard-container">
+    <div class="header">
+        <h1>Bienvenido, Mateo Chacha</h1>
+        <p>Tu progreso académico hasta el momento</p>
+    </div>
+
+    <div class="materias-container">
+        <h2>Materias y Calificaciones</h2>
+        <div class="materias">
+
+            <div class="materia pasada">
+                <div class="imagen">
+                    <img src="../../../assets/img/data.png" alt="Base de Datos">
                 </div>
-                <div class="info">
-                    <p>Profesor: Dr. Pérez</p>
-                    <p>Fecha de examen: 15 de mayo</p>
+                <div class="contenido">
+                    <h3>Base de Datos</h3>
+                    <span class="calificacion">8.5</span>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                    </div>
+                    <div class="info">
+                        <p><strong>Profesor:</strong> Dr. Pérez</p>
+                        <p><strong>Fecha de examen:</strong> 15 de mayo</p>
+                    </div>
+                    <div class="actions">
+                        <button class="btn-detalles">Ver detalles</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="materia reprobada">
+                <div class="imagen">
+                    <img src="../../../assets/img/ofi.png" alt="Office de Informática">
+                </div>
+                <div class="contenido">
+                    <h3>Office de Informática</h3>
+                    <span class="calificacion">6.0</span>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 60%;"></div>
+                    </div>
+                    <div class="info">
+                        <p><strong>Profesor:</strong> Lic. Gómez</p>
+                        <p><strong>Fecha de examen:</strong> 20 de junio</p>
+                    </div>
+                    <div class="actions">
+                        <button class="btn-detalles">Ver detalles</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="materia pasada">
+                <div class="imagen">
+                    <img src="../../../assets/img/progra.png" alt="Programación Web">
+                </div>
+                <div class="contenido">
+                    <h3>Programación Web</h3>
+                    <span class="calificacion">9.2</span>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 92%;"></div>
+                    </div>
+                    <div class="info">
+                        <p><strong>Profesor:</strong> Mtra. Sánchez</p>
+                        <p><strong>Fecha de examen:</strong> 10 de junio</p>
+                    </div>
+                    <div class="actions">
+                        <button class="btn-detalles">Ver detalles</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="materia pasada">
+                <div class="imagen">
+                    <img src="../../../assets/img/code.png" alt="Aplicaciones Móviles">
+                </div>
+                <div class="contenido">
+                    <h3>Aplicaciones Móviles</h3>
+                    <span class="calificacion">7.8</span>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 78%;"></div>
+                    </div>
+                    <div class="info">
+                        <p><strong>Profesor:</strong> Dr. Martínez</p>
+                        <p><strong>Fecha de examen:</strong> 5 de junio</p>
+                    </div>
+                    <div class="actions">
+                        <button class="btn-detalles">Ver detalles</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="materia reprobada">
-            <div class="imagen">
-                <img src="../../../assets/img/ofi.png" alt="Oficce de Informática">
-            </div>
-            <div class="contenido">
-                <h3>Oficce de Informática</h3>
-                <span class="calificacion">6.0</span>
-                <div class="progress-container">
-                    <div class="progress-bar" style="width: 60%;"></div>
-                </div>
-                <div class="info">
-                    <p>Profesor: Lic. Gómez</p>
-                    <p>Fecha de examen: 20 de junio</p>
-                </div>
-            </div>
+    </div>
+
+    <div class="gráfico-container">
+        <h2>Gráficos de Desempeño</h2>
+        <div class="grafico">
+            <h3>Promedio General</h3>
+            <div class="grafico-barra" style="width: 78%;"></div>
+            <p><strong>Promedio:</strong> 7.8</p>
         </div>
-        <div class="materia pasada">
-            <div class="imagen">
-                <img src="../../../assets/img/progra.png" alt="Programación Web">
-            </div>
-            <div class="contenido">
-                <h3>Programación Web</h3>
-                <span class="calificacion">9.2</span>
-                <div class="progress-container">
-                    <div class="progress-bar" style="width: 92%;"></div>
-                </div>
-                <div class="info">
-                    <p>Profesor: Mtra. Sánchez</p>
-                    <p>Fecha de examen: 10 de junio</p>
-                </div>
-            </div>
+
+        <div class="grafico">
+            <h3>Progreso en Base de Datos</h3>
+            <div class="grafico-barra" style="width: 85%;"></div>
+            <p><strong>Progreso:</strong> 85%</p>
         </div>
-        <div class="materia pasada">
-            <div class="imagen">
-                <img src="../../../assets/img/code.png" alt="Aplicaciones Móviles">
-            </div>
-            <div class="contenido">
-                <h3>Aplicaciones Móviles</h3>
-                <span class="calificacion">7.8</span>
-                <div class="progress-container">
-                    <div class="progress-bar" style="width: 78%;"></div>
-                </div>
-                <div class="info">
-                    <p>Profesor: Dr. Martínez</p>
-                    <p>Fecha de examen: 5 de junio</p>
-                </div>
-            </div>
-        </div>
+    </div>
+
+    <div class="tareas-container">
+        <h2>Próximos Exámenes y Tareas</h2>
+        <ul class="tareas-list">
+            <li class="tarea">
+                <p><strong>Base de Datos</strong></p>
+                <p>Examen final el 15 de mayo</p>
+            </li>
+            <li class="tarea">
+                <p><strong>Office de Informática</strong></p>
+                <p>Trabajo práctico a entregar el 10 de junio</p>
+            </li>
+            <li class="tarea">
+                <p><strong>Aplicaciones Móviles</strong></p>
+                <p>Entrega de proyecto el 30 de mayo</p>
+            </li>
+        </ul>
     </div>
 
     <div class="action-btn-container">
-        <button type="button" (click)="logout()" class="btn-cerrar">Cerrar Sección</button>
+        <button (click)="logout()" type="button" class="btn-cerrar">Cerrar Sesión</button>
     </div>
 </div>
-
