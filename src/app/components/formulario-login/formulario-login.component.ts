@@ -24,8 +24,6 @@ login(formulario: any) {
   } else if (email === 'mateo@gmail.com') {
     localStorage.setItem('login', "true");
     this.route.navigate(['estudiantes']);
-  } else {
-    console.error('Email incorrecto');
   }
 }
 
